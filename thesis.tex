@@ -1,0 +1,81 @@
+\documentclass{fast-nuces-bs}
+
+\usepackage{blindtext}
+\usepackage{mathptmx}% Times Roman font
+\usepackage[T1]{fontenc}
+\usepackage{lipsum} 
+\usepackage{sectsty}
+\usepackage{tikz-uml}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% Information about the Thesis 
+% -----------------------------------------------------------------------------
+% (All are compulsory, do not delete any line other than author Information)
+% For e.g., usually there are 3 students in a group, so leave authorone, 
+% authortwo, and authorthree, and delete authorfour.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\department{Department of Computer Science}
+\faculty{Computer Science}
+\degreeyear{2022}
+\degreemonth{January}
+\degreename{Computer Science}
+\campuscity{Peshawar}
+\authorone{Shouzab Khan}{p17-6101}
+\authortwo{Zunera Bukhari}{p17-6052}
+\authorthree{Shahab Aslam Paracha}{p17-6132}
+\supervisor{Muhammad Amin}
+\sessionduration{2017-2021}
+\directorname{Dr. Omer Usman khan}
+\hodname{Dr. Muhammad Hafeez}
+\fypcoordinatorname{Mashal Khan}
+\title{Water Pollution Detection Through Hyperspectral Images}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Former document starts below this
+\begin{document}
+
+\begin{acknowledgements}
+	We are very thankful to almighty Allah for giving us a lot of courage to choose such an immense project
+and for progressing in it with great dignity and grace. All the group members played significant role
+in the progress of this project. We would like to grab the opportunity to thank Muhammad Amin who
+motivated us for selection of this project. They encouraged us and showed us the way the project can be
+implemented. They have been really kind to us since the beginning of our project. Despite of their very
+busy schedule as lecturer they were always available to us and gave us time whenever we wanted to meet
+him. Their guidance and experience proved very helpful to us in order to make progress in our project.
+We are highly thankful to all of our teachers who had been guiding us throughout our project work.
+Their knowledge, guidance and training enabled us to carry out this development work more efficiently.
+We would like to thank all our friends and colleagues for giving us useful suggestions about increasing
+the quality of our project. Their suggestions and motivation helped us a great deal.
+\end{acknowledgements}
+
+\begin{abstract}
+Water is life. Water, of being great importance, espacially inland waters, requires devotion and efforts for it to be monitered well and for a better quality of it to be provided. We are providing means of doing so.
+
+We analyze the relationship of water using "Hyperspectral Remote Sensing". We can also use hyperspectral imagery to evaluate overall quality of water.. Hyperspectral Remote Sensing has possible means of presenting you details of the contamination rapidly and inexpensively. 
+
+A self-adapting selection method of multiple artificial neural networks (ANN) is proposed to experimentally predict water quality parameters such like "phosphorus", "nitrogen", "biochemical oxygen demand (BOD)", "chemical oxygen demand (COD)", and "chlorophyll-a" using Hyperspectral Remote Sensing and earth measured water qualitative data.
+
+An ongoing scientific issue is evaluating the absorption spectra of the water column using hyperspectral images. Convolutional neural networks (CNN) have now become a popular strategy for classification and regression on huge datasets due to recent breakthroughs in deep learning. To estimate and therefore monitor several indices for water quality, such as "chlorophyll-a" and "nitrogen," we propose a combination of hyperspectral data and machine learning techniques. Hyperspectral Images have also been shown to improve in the classification of "chlorophyll-a." 
+\textbf{Keywords:}  Water Quality, Chlorophyll-a, nitrogen, hyper-spectral images, machine learning, regression.
+
+
+\end{abstract}
+\include{chapter1/chapter1}
+\include{chapter2/chapter2}
+\include{chapter3/chapter3}
+\include{chapter4/chapter4}
+\include{chapter5/chapter5}
+\include{chapter6/chapter6}
+\include{chapter7/chapter7}
+
+%\appendix
+%\include{appendix1/appendix1}
+
+\bibliographystyle{IEEEtran}
+\bibliography{bib} 
+\addcontentsline{toc}{chapter}{References} 
+
+\end{document}
